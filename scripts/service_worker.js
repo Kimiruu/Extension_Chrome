@@ -1,6 +1,7 @@
-const userId = 434779285;
-const token = "6ge7hbft6bxzf01axxkqcnp1cc9ot4";
-const clientID = "lin46c5nyjf1l1zldpp9114tuzlpi4";
+import tokens from "./tokens.js";
+const userId = tokens.userId;
+const token = tokens.token;
+const clientID = tokens.clientID;
 
 const url = `https://api.twitch.tv/helix/streams?user_id=${userId}`;
 const twitchUrl = "https://www.twitch.tv/st4rflyy";
