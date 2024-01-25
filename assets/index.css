@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background-image: url("../image/Background.png");
+    background-size: cover;
+    border: solid 10px #F6E9DB;
+}
+p {
+    font-family: "Playpen Sans", Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+#Extension {
+    padding: 10px;
+}
+
+.txtContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#name {
+    height: 75px;
+}
+
+#textContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+#image {
+    height: 200px;
+    cursor: pointer;
+}
+
+#icon {
+    height: 12px;
+    width: 12px;
+    border-radius: 100%;
+    background-color: #707070;
+}
+
+.actif {
+    background-color: #407d57;
+}
+
+#title {
+    font-size: 15px;
+}
+
+#buttonsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+path {
+    transition: 0.5s;
+}
+
+#Left {
+    border-radius: 10px 0px 0px 10px;
+    background-color: #F6E9DB;
+    padding: 10px;
+    border: solid 0.5px #DB846B;
+    border-style: solid none solid solid;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+#Left:hover {
+    background-color: #DB846B;
+}
+
+#Left:hover path {
+    fill: #F6E9DB;
+}
+
+.button {
+    background-color: #F6E9DB;
+    padding: 10px;
+    border: solid 0.5px #DB846B;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+
+.button:hover {
+    background-color: #DB846B;
+}
+
+.button:hover path {
+    fill: #F6E9DB;
+}
+
+#Right {
+    border-radius: 0px 10px 10px 0px;
+    background-color: #F6E9DB;
+    padding: 10px;
+    border: solid 0.5px #DB846B;
+    border-style: solid solid solid none;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+#Right:hover {
+    background-color: #DB846B;
+}
+
+#Right:hover path {
+    fill: #F6E9DB;
+}
+
+.links {
+    height: 30px;
+}
